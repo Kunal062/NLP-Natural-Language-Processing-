@@ -1,0 +1,57 @@
+Corpus: 
+    - nps_chat (for abbreviations and slang words)
+    - 2000 random sentences (for normal english)
+Preprocessing:
+    - XML parsing
+    - Removal of actual usernames from corpus (coz irrelevant for prediction purpose)
+    - Lowercase senteneces
+    - Tweettokenizer for combined words
+Frequency Distribution:
+    - Analysis of corpus for unigram and bigrams
+    - Matplot for plotting FD
+Generate Lookup dict:
+    - generate ngram from corpus & create `lookup_dict`
+    - { (wn-2, wn-1): [wni, wnii, wniii] }
+    - Example: { (I, want): [to, food, coffee, to] }
+Conditional Frequency Distribution:
+    - Use lookup_dict to find most common occurence
+    - Convert them into probability and store in `cfdist`
+    - Example: { (I, want): [(to, 0.5), (food, 0.25), (coffee, 0.25)] }
+Backoff:
+    - Used when model is unable to provide enough no. of suggestions
+    - trigrams -> bigrams -> unigram
+    -    1     ->    1    ->    1   (total is 3)
+    -    1     ->    2    ->    0   (total is 3)
+GUI:
+    - Tkinter library
+
+Example:
+    - Good thing it had become such an ingrained part of history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Future:
+    - save model using pickle
+    - custom user-specific sentences added to corpus
+
