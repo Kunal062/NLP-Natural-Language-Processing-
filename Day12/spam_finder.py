@@ -16,7 +16,7 @@ def clean_txt(sent):
     tokens = [ps.stem(token) for token in tokens]  # step-4 Remove the suffixes
     return tokens 
 
-classifier = joblib.load('D:\NLP-Natural-Language-Processing-\Day12\Day12\classifier.model')
+classifier = joblib.load('classifier.model')
 tfidf = joblib.load('preprocessor.model')
 
 @app.route('/')
