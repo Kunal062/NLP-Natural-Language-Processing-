@@ -22,6 +22,7 @@ tfidf = joblib.load('preprocessor.model')
 @app.route('/')
 def student():
     return render_template('spamdetector.html')
+
 @app.route('/spamfinder',methods=['GET','POST']) # type: ignore
 def result():
     if request.method == 'POST':
