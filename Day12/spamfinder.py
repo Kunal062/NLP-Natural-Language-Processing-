@@ -29,7 +29,11 @@ def result():
         data = dict(request.form)
         message = tfidf.transform([data['message']])
         data['result'] = classifier.predict(message)[0]
-        return render_template('spamoutput.html',data=data['result'])
+        if data['result'] == 'ham':
+            color = 'green'
+        else:
+            color = 'red'
+        return render_template('spamoutput.html',color = color)
     
     
 if __name__ == '__main__':
