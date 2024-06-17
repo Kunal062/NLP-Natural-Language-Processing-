@@ -1,0 +1,93 @@
+CO3354 Introduction to natural language processing
+1.3 Learning outcomes
+On successful completion of this course, including recommended readings, exercises
+and activities, you should be able to:
+1. utilise and explain the function of software tools such as corpus readers,
+stemmers, taggers and parsers
+2. explain the difference between regular and context-free grammars and deﬁne
+formal grammars for fragments of a natural language
+3. critically appraise existing Natural Language Processing (NLP) applications such
+as chatbots and translation systems
+4. describe some applications of statistical techniques to natural language analysis,
+such as classiﬁcation and probabilistic parsing.
+Each main chapter contains a list of learning outcomes speciﬁc to that chapter at the
+beginning, as well as a summary at the end of the chapter.
+1.4 Reading list and other learning resources
+This is a list of textbooks and other resources which will be useful for all or most
+parts of the course. Additional readings will be given at the start of each chapter. See
+the bibliography for a full list of books and articles referred to, including all ISBNs.
+In some cases several different books will be listed: you are not expected to read all
+of them, rather the intention is to give you some alternatives in case particular texts
+are hard to obtain.
+Essential reading
+Bird, Klein, and Loper (2009): Natural Language Processing with Python . The full
+text including diagrams is freely available online at http://nltk.org/book (last
+visited 13th April 2013). The main textbook for this course, Natural Language
+Processing with Python is the outcome of a project extending over several years
+to develop the Natural Language Toolkit (NLTK), which is a set of tools and
+resources for teaching computational linguistics. The NLTK comprises a suite of
+software modules written in Python and a collection of corpora and other
+resources. See section 1.5 below for advice on installing the NLTK and other
+software packages.
+In the course of working through this text you will gain some experience and
+familiarity with the Python language, though you will not be expected to
+produce substantial original code as part of the learning outcomes of the course.
+Recommended reading
+Pinker (2007). The Language Instinct . This book is aimed at non-specialists and
+deals with many psychological and cultural aspects of language. Chapter 4 is
+particularly relevant to this course as it provides a clear and accessible
+presentation of two standard techniques for modelling linguistic structure:
+ﬁnite-state machines and context-free grammars (though Pinker does not in fact
+use these terms, as we will see in Chapter 2 of the subject guide).
+6Reading list and other learning resources
+Jurafsky and Martin (2009): Speech and Language Processing , second edition.
+Currently the deﬁnitive introductory textbook in this ﬁeld, covering the major
+topics in a way which combines theoretical issues with presentations of key
+technologies, formalisms and mathematical techniques. Much of this book goes
+beyond what you will need to pass this course, but it is always worth turning to
+if you’re looking for a more in-depth discussion of any particular topics.
+Perkins (2010): Python Text Processing with NLTK 2.0 Cookbook . This book will be
+suitable for students who want to get more practice in applying Python
+programming to natural language processing. Perkins explains several
+techniques and algorithms in more technical detail than Bird et al. (2009) and
+provides a variety of worked examples and code snippets.
+Segaran (2007) Programming Collective Intelligence . This highly readable and
+informative text includes tutorial material on machine learning techniques using
+the Python language.
+Additional reading
+Russell and Norvig (2010) Artiﬁcial Intelligence: a modern approach , third edition.
+This book is currently regarded as the deﬁnitive textbook in Artiﬁcial
+Intelligence, and includes useful material on natural language processing as well
+as on machine learning, which has many applications in NLP.
+Mitkov (2003) The Oxford Handbook of Computational Linguistics . Edited by Ruslan
+Mitkov. A collection of short articles on major topics in the ﬁeld, contributed by
+acknowledged experts in their respective disciplines.
+Partee et al. (1990) Mathematical Methods in Linguistics . A classic text, whose
+contents indicate how much the ﬁeld has changed since its publication. A book
+with such a title nowadays would be expected to include substantial coverage of
+statistics, probability and information theory, but this text is devoted exclusively
+to discrete mathematics including set theory, formal logic, algebra and automata.
+These topics are particularly applicable to the content of Chapters 2 and 6.
+Websites
+Introductory/Reference The Internet Grammar of English is a clear and informative
+introductory guide to English grammar which also serves as a tutorial in
+grammatical terminology and concepts. The site is hosted by the Survey of
+English Usage at University College London
+(http://www.ucl.ac.uk/internet-grammar/home.htm, last visited 27th May
+2013).
+Hands-on corpus analysis
+BNCWeb is a web-based interface to the British National Corpus hosted at Lancaster
+University which supports a variety of online queries for corpus analysis
+(http://bncweb.info/; last visited 27th May 2013).
+The Bank of English forms part of the Collins Corpus, developed by Collins
+Dictionaries and the University of Birmingham. Used as a basis for Collins
+Advanced Learner’s Dictionary, grammars and various tutorial materials for
+learners of English. Limited online access at
+http://www.collinslanguage.com/wordbanks; (last visited 27th May 2013).
+Journals and conferences
+Computational Linguistics is the leading journal in this ﬁeld and is freely available at
+http://www.mitpressjournals.org/loi/coli (last visited 27th May 2013).
+Conference Proceedings are often freely downloadable and many of these are
+hosted by the ACL Anthology at http://aclweb.org/anthology-new/ (last visited
+27th May 2013).
+7
